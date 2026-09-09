@@ -1,0 +1,33 @@
+/* Larger, more accessible reading scale across the Careknect website. */
+body { font-size: 18px; }
+.nav { font-size: 16px !important; }
+.eyebrow { font-size: 13px !important; }
+.hero-lede,
+.page-hero > p,
+.corporate-copy > p:not(.eyebrow) { font-size: 21px !important; }
+.section-heading > p:last-child,
+.split-copy > p,
+.section-intro > p,
+.contact-info > p { font-size: 18px !important; }
+.principles p,
+.value-grid p,
+.product-card > p,
+.service-section > div > p:last-child,
+.story-grid p,
+.module p,
+.feature-list p,
+.approach-corporate p { font-size: 15px !important; }
+.product-card li,
+.service-list p,
+.safety-note { font-size: 13px !important; }
+.product-card > a,
+.inline-arrow,
+.contact-actions > a:last-child { font-size: 15px !important; }
+footer { font-size: 14px !important; }
+
+@media (max-width: 620px) {
+  body { font-size: 17px; }
+  .hero-lede,
+  .page-hero > p,
+  .corporate-copy > p:not(.eyebrow) { font-size: 18px !important; }
+}

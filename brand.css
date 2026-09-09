@@ -1,0 +1,35 @@
+@import url("typography.css");
+/* Professional application of the official Careknect logo. */
+.brand-logo {
+  width: 218px;
+  height: 66px;
+  padding: 8px 12px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .12);
+}
+
+.brand-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer-brand {
+  width: 230px;
+  height: 72px;
+  box-shadow: none;
+}
+
+@media (max-width: 620px) {
+  .brand-logo {
+    width: 172px;
+    height: 51px;
+    padding: 6px 9px;
+    border-radius: 6px;
+  }
+}
+
+.nav .active:not(.nav-cta){color:#6de0d5;opacity:1}.story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:70px}.story-grid article{background:var(--paper);padding:35px;min-height:230px}.story-grid span{font-size:10px;letter-spacing:1.5px;color:var(--teal);font-weight:700}.story-grid h3{font:700 21px var(--display);margin-top:45px}.story-grid p{font-size:13px;line-height:1.7;color:var(--muted)}.page-cta{padding:80px clamp(24px,7vw,110px);background:#e3f2ed;display:flex;align-items:center;justify-content:space-between;gap:40px}.page-cta h2{font:600 clamp(30px,3.5vw,48px)/1.15 var(--display);letter-spacing:-2px;max-width:760px;margin:0}.contact-grid{display:grid;grid-template-columns:.8fr 1fr;gap:9vw}.contact-info>p{color:var(--muted);line-height:1.7}.contact-info>a{display:block;font:600 17px var(--display);margin-top:18px;color:var(--teal)}.contact-card{background:#fff;border:1px solid var(--line);padding:38px;display:grid;gap:10px;box-shadow:0 20px 60px rgba(7,29,43,.07)}.contact-card label{font-size:11px;font-weight:700;margin-top:10px}.contact-card input,.contact-card select,.contact-card textarea{width:100%;border:1px solid #d4ddd9;background:#fff;border-radius:5px;padding:13px;outline:none;font:inherit;color:var(--ink)}.contact-card input:focus,.contact-card select:focus,.contact-card textarea:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(0,169,157,.08)}.contact-card .button{border:0;margin-top:16px;cursor:pointer}.metric-row span{display:block;font-size:11px;color:#9fb2b9;margin-top:8px}@media(max-width:900px){.story-grid,.contact-grid{grid-template-columns:1fr}.page-cta{align-items:flex-start;flex-direction:column}}@media(max-width:620px){.contact-card{padding:24px}.page-cta{padding:65px 22px}}
